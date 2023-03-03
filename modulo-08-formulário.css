@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family= Inter: wght @200 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@600 & family= Sarala:wght@700 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Inter: wght @200 &família= Sarala:wght@700 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Inter:wght@100;600&family=Sarala:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+article{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-bottom: 1rem;
+	font-size: 20px; 
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+	color: #FFFFFF;
+
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+font-size: 15px;
+color: #FFFFFF;
+
+}
+
+
+div{
+    padding: 10px;
+}
+
+.titulo{
+    padding-bottom: 50px;
+}
+
+form{
+    background-color: #ffffff50;
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+}
+
+label {
+    
+	margin-bottom: 1rem;
+	font-size: 1rem; 
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+	color: #FFFFFF
+}
+
+
+input {
+	padding: 1rem;
+    border-color:#FFFFFF;
+    border-radius: 10px;
+}
+
+[type="text"], [type="email"], textarea, label {
+	display: block;
+	width: 100%;
+}
+
+
+
+body{
+    font-size: 100%;
+    background: black;
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;  
+ 
+}
+
+
+.cabeçalho-imagem{
+   height: 52px;
+   width: 62px;
+   padding-left: 10px;
+
+}
+
+.cabeçalho-menu{
+     display: flex;
+     gap: 32px;
+     padding-right: 40px;
+          
+}
+
+.cabeçalho-menu-item{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+font-size: 15px;
+color: #FFFFFF;
+
+}
+a:hover {
+    color:#504f4f
+}
+
+.botão {
+    font-family: 'Inter', sans-serif;
+    color: #504f4f;
+    padding-top: 20px;   
+    border: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+
+.rodapé{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+font-size: 15px;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+padding: 70px;  
+}
+
+@media (max-width: 425px){
+    @media (max-width: 425px) {
+        .cabeçalho{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .cabeçalho-menu{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            padding: 0%;
+            padding-top: 10px;
+    
+        }
+    .cabeçalho-imagem{
+    padding: 0% ;
+    height: 42px;
+    width: 52px;
+    
+    
+    } 
+   
+    
+    .rodapé{
+        font-size: 10px;
+    }
+    
+    }
+    
+
+}
